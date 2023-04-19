@@ -1,0 +1,15 @@
+package clock;
+
+import javax.swing.JFrame;
+
+public class myWindow extends JFrame {
+	myWindow(){
+		super.setTitle("My clock");
+		super.setSize(400,400);
+		super.setLocation(300, 50);
+		super.setVisible(true);
+		
+	}
+	
+
+}

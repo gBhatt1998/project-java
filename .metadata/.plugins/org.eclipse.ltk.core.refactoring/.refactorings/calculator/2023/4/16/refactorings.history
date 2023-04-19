@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;encription&apos; to &apos;encryption&apos;&#x0D;&#x0A;- Original project: &apos;calculator&apos;&#x0D;&#x0A;- Original element: &apos;calculator/src/encription&apos;&#x0D;&#x0A;- Renamed element: &apos;calculator/src/encryption&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;encription&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;encription" name="encryption" qualified="false" references="true" stamp="1681789494479" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,40 @@
+package clock;
+
+import java.awt.Font;
+
+import javax.swing.*;
+
+public class myWindow extends JFrame {
+	
+	private JLabel heading;
+	private JLabel clockLabel;
+	
+	private Font font=new Font("",Font.BOLD,35);
+	
+	
+	
+	myWindow(){
+		super.setTitle("My clock");
+		super.setSize(400,400);
+		super.setLocation(300, 50);
+		super.setVisible(true);
+		this.createGUI();
+		
+	}
+
+
+
+	public void createGUI() {
+		// TODO Auto-generated method stub
+		
+		heading=new JLabel("My clock");
+		
+		clockLabel=new JLabel("clock");
+		
+		heading.setFont(font);
+		clockLabel.setFont(font);
+		
+	}
+	
+
+}
